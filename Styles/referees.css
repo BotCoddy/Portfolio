@@ -1,0 +1,112 @@
+
+/*------- REFEREES ----------*/
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    background-color: whitesmoke;
+}
+
+.one p{
+    text-align: center;
+    
+}
+
+.details img{
+    float: inline-start;
+    /* background-color: white; */
+    width: 220px;
+    height: 220px;
+    border-style:solid ;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    z-index: 10;
+    filter: drop-shadow(5px 4px 4px black);
+    /* filter: grayscale(100%); */
+}
+
+.text-p{
+    background-color: white;
+    height: 150px;
+    margin-top: 12px;
+    padding-bottom: 70px;
+}
+.text-p h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.email, .number{
+    padding: 5px;
+    font-size: large;
+    text-decoration: underline;
+}
+.p-text-details{
+    width: 500px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+
+}
+
+.add-white-line{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    margin-top: -40px;
+}
+
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 21px;
+        margin-top: -10px;
+    }
+    
+    .text-p{
+        padding-bottom: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    .text-p h3{
+        font-size: 24px;
+    }
+
+    .number, .email{
+        font-size: large;
+        text-decoration: underline;
+    }
+
+    .p-text-details{
+        font-size: large;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+        
+        
+        
+    }
+}

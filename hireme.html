@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me</title>
+    <link rel="stylesheet" href="./Styles/hireme.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+    <!-- Desktop View Navigation -->
+    <div class="main-nav">
+        <div class="logo">
+            <h2><a href="./index.html">SamBot</a></h2>
+        </div>
+        <div class="nav-icons">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./referees.html">Referees</a></li>
+                <li><a href="./testimonials.html">Testimonials</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./hireme.html">Contact</a></li>
+            </ul>
+            <button onclick="window.location.reload()">Hire Me</button>
+        </div>
+    </div>
+
+
+     <!-- Mobile View Navigation Bar -->
+    
+     <div class="main-nav-mobile">
+        <div class="logo">
+            <h2><a href="./index.html">SamBot</a></h2>
+        </div>
+        <div class="hireme-image">
+            <button onclick="window.location.reload()">Hire Me</button>
+            <img class="showMobile" src="./icons/menu.png" alt="slack">
+        </div>
+    </div>
+
+    <div class="nav-icons-mobile">
+        <img class="hideMobile" src="./icons/close.png" alt="">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./referees.html">Referees</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./hireme.html">Contact</a></li>
+        </ul>
+       
+    </div>
+
+<!-------------------- HIRE ME----------------->
+<h1 class="title-hire-me">LETS DO BUSINESS TOGETHER</h1>
+<form action="" id="submit" class="form-details">
+   <div class="sendEmail">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" required> <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" required> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required> <br>
+        <label for="number">Mobile</label>
+        <input type="number" id="number" required> <br>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="eg. I WANT A WEBSITE FOR MY E-COMMERCE STORE"> <br>
+        <label for="message">Message:</label> <br>
+        <textarea name="" id="message" placeholder="Enter Message Body Here"></textarea> <br>
+        <input type="submit"  value="SEND" class="submit">
+   </div>
+
+    
+    
+</form>
+
+<!--------------------FOOTER SECTION----------------->
+    <footer class="footer-section">
+        <div class="left-side">
+            <h3>Get In Touch</h3>
+            <p>Let The Professionals Handle <br> Your System For You</p>
+            <div class="social-handles">
+                <img src="./icons/facebook-f.svg" class="facebook" alt="facebook">
+                <img src="./icons/twitter.svg" class="twitter" alt="twitter">
+                <img src="./icons/envelope-circle-check-solid.svg" class="gmail" alt="gmail">
+                <img src="./icons/whatsapp.svg" class="whatsapp" alt="">
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="settings">
+                <img src="./icons/circle-half-stroke-solid.svg" alt="settings">
+                <p>Tel:+233555298188</p>
+            </div>
+            <div class="email-address settings" >
+                <img src="./icons/envelope-circle-check-solid.svg" alt="email-address">
+                <p onclick="location.href='./hireme.html'">samuelwise58@gmail <br>.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copy Right Details-->
+    <p class="copyright">CopyRight  &#169; <span class="copyright-year">2024</span></p>
+    <p class="wisecode">All Rights Reserved WiseCode</p>
+
+
+
+    <!-- scripts  -->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+    </script>
+
+    <!-- local Scripts Loaded Here -->
+    
+    <script src="./Javascript/hireme.js"></script>
+    
+</body>
+</html>
