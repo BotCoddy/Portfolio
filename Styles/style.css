@@ -331,7 +331,7 @@ body{
     margin-bottom: 20px;
     background-color: whitesmoke;
     margin-top: 10px;
-    height: 200px;
+    height: 160px;
     padding: 10px;
     padding-bottom: 20px;
     transition: all 0.6s;
@@ -343,6 +343,7 @@ body{
 
 .experience h4{
     font-size: 18px;
+    text-align: center;
 }
 
 .experience h5{
