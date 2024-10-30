@@ -693,7 +693,7 @@ body{
 }
 
 .each-career{
-    height: 340px;
+    height: 370px;
 }
 
 .each-career p{
@@ -711,7 +711,7 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    height: 300px;
+    height: 400px;
 }
 
 /* ----------- FOOTER SECTION ------------ */
