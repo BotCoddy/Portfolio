@@ -99,6 +99,7 @@ h1{
     }
 
     .p-text-details{
+        display:none;
         font-size: large;
         text-align: center;
         margin-left: 50px;
