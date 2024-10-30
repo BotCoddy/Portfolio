@@ -15,6 +15,7 @@
 .image-div img{
     filter: drop-shadow(4px 4px 3px black);
     background-color:black ;
+    margin-left: 10px;
 }
 .info h3, p{
     text-align: center;
